@@ -1,0 +1,6 @@
+#ifndef TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_OUTPUT_HANDLER_H_
+#define TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_OUTPUT_HANDLER_H_
+
+void HandleOutput(float speed,float torque, float y);
+
+#endif 

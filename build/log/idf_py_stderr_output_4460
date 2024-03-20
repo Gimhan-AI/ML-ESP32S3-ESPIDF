@@ -1,0 +1,214 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.3.4 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x4004e553: Cache_Invalidate_DCache_Items in ROM
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m0x42008263: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:73
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x42008260: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:74
+[0m
+[0;33m0x42007ea5: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b11c: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0m
+Traceback (most recent call last):
+  File "C:\Espressif\frameworks\esp-idf-v5.1.2\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "subprocess.py", line 550, in run
+  File "subprocess.py", line 1199, in communicate
+  File "subprocess.py", line 1262, in wait
+  File "subprocess.py", line 1543, in _wait
+KeyboardInterrupt

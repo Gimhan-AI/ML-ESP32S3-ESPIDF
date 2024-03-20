@@ -1,0 +1,242 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.3.4 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x420019b3: uart_ll_get_txfifo_len at C:/Espressif/frameworks/esp-idf-v5.1.2/components/hal/esp32s3/include/hal/uart_ll.h:317
+ (inlined by) panic_print_char_uart at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:78
+ (inlined by) panic_print_char at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:116
+ (inlined by) panic_print_str at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:129
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:108
+[0m
+[0;33m0x4200a6a0: flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:42
+ (inlined by) signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/third_party/flatbuffers/include/flatbuffers/table.h:46
+ (inlined by) tflite::Tensor::type() const at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/schema/schema_generated.h:5775
+ (inlined by) tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/memory_helpers.cc:113
+[0m
+[0;33m0x4200820f: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:64
+[0m
+[0;33m0x42007e89: app_main at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main.cc:24 (discriminator 1)
+[0m
+[0;33m0x4201b0f8: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037567f: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x403751fc: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x42008212: loop at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:68
+[0m
+[0;33m0x4200a699: tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*) at C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espres
