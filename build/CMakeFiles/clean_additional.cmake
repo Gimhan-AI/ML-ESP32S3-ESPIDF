@@ -14,11 +14,11 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "flash_bootloader_args"
   "flash_project_args"
   "flasher_args.json"
-  "hello_world.bin"
-  "hello_world.map"
   "ldgen_libraries"
   "ldgen_libraries.in"
   "project_elf_src_esp32s3.c"
+  "tml_esp32s3.bin"
+  "tml_esp32s3.map"
   "x509_crt_bundle.S"
   )
 endif()

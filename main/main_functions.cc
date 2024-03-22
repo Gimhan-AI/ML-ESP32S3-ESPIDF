@@ -51,7 +51,7 @@ void setup() {
 }
 
 void loop() {
-    float input_data[2] = {7500.0f, 30.0f}; 
+    float input_data[2] = {40.0f, 10.0f}; 
 
     for (size_t i = 0; i < 2; ++i) {
         input->data.f[i] = input_data[i];

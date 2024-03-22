@@ -9,7 +9,7 @@ C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/CMakeFiles/monitor.dir
 C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/CMakeFiles/flash.dir
 C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/CMakeFiles/encrypted-flash.dir
 C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/CMakeFiles/_project_elf_src.dir
-C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/CMakeFiles/hello_world.elf.dir
+C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/CMakeFiles/tml_esp32s3.elf.dir
 C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/CMakeFiles/size.dir
 C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/CMakeFiles/size-files.dir
 C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/CMakeFiles/size-components.dir

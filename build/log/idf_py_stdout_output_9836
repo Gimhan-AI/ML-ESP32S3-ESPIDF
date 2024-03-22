@@ -1,0 +1,70 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.1.2\hello_world\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.1.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5770 bytes. 0x2890 bytes (32%) free.
+[2/8] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main_functions.cc.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_mutable_op_resolver.h:22,
+                 from C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/main/main_functions.cc:1:
+C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/core/api/flatbuffer_conversions.h: In member function 'T* tflite::BuiltinDataAllocator::AllocatePOD()':
+C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/core/api/flatbuffer_conversions.h:46:24: warning: 'template<class _Tp> struct std::is_pod' is deprecated: use is_standard_layout && is_trivial instead [-Wdeprecated-declarations]
+   46 |     static_assert(std::is_pod<T>::value, "Builtin data structure must be POD.");
+      |                        ^~~~~~
+In file included from c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\xtensa-esp32s3-elf\include\c++\12.2.0\bits\stl_pair.h:60,
+                 from c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\xtensa-esp32s3-elf\include\c++\12.2.0\utility:69,
+                 from C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/core/c/common.h:1372,
+                 from C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/c/common.h:28,
+                 from C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_mutable_op_resolver.h:21:
+c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\xtensa-esp32s3-elf\include\c++\12.2.0\type_traits:757:5: note: declared here
+  757 |     is_pod
+      |     ^~~~~~
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable tml_esp32s3.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/tml_esp32s3.bin
+[7/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.1.2\hello_world\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.1.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/partition_table/partition-table.bin C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build/tml_esp32s3.bin"
+tml_esp32s3.bin binary size 0x39f20 bytes. Smallest app partition is 0x100000 bytes. 0xc60e0 bytes (77%) free.
+[7/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.1.2\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.1.2 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.1.2/components/esptool_py/esptool/esptool.py;--chip;esp32s3 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Espressif/frameworks/esp-idf-v5.1.2/hello_world/build -P C:/Espressif/frameworks/esp-idf-v5.1.2/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32s3 -p COM4 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 tml_esp32s3.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port COM4
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: c0:4e:30:3a:af:a8
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00049fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 22384 bytes to 14221...
+Writing at 0x00000000... (100 %)
+Wrote 22384 bytes (14221 compressed) at 0x00000000 in 0.3 seconds (effective 697.3 kbit/s)...
+Hash of data verified.
+Compressed 237344 bytes to 140838...
+Writing at 0x00010000... (11 %)
+Writing at 0x0001b8d1... (22 %)
+Writing at 0x00021255... (33 %)
+Writing at 0x00026980... (44 %)
+Writing at 0x0002bc57... (55 %)
+Writing at 0x000314b1... (66 %)
+Writing at 0x00039646... (77 %)
+Writing at 0x00040dc5... (88 %)
+Writing at 0x000466fb... (100 %)
+Wrote 237344 bytes (140838 compressed) at 0x00010000 in 1.9 seconds (effective 1012.8 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 786.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
